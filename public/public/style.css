@@ -1,0 +1,136 @@
+h1 {
+    color:  maroon;
+    text-align: center;
+    text-shadow: 5px 5px 8px blue;
+}
+
+a{
+    width: 3rem;
+    height: 2rem;
+    border: 1px solid black;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: linear 0.1s;
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 5px 5px 8px lightskyblue;
+    text-decoration: none;
+    
+}
+
+button{
+    width: 7rem;
+    height: 2rem;
+    border: 1px solid black;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: linear 0.1s;
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 5px 5px 8px rgb(57, 153, 212);
+}
+
+button:hover{
+    scale: 0.9;
+    background-color: rgb(225, 85, 85);
+    color: white;
+    box-shadow: 5px 5px 10px rgb(33, 50, 60);
+
+}
+.Creat:hover{
+    scale: 0.9;
+    background-color: rgb(225, 85, 85);
+    color: white;
+    box-shadow: 5px 5px 10px rgb(33, 50, 60);
+}
+
+.post{
+    border: 1px solid black;
+    background-color: darkslategray;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.combo{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    bottom: 0;
+}
+
+.Creat {
+   position: absolute;
+   left: 45%;
+   width: 9rem;
+   height: 2rem;
+display: flex;
+text-align: center;
+justify-content: center;
+justify-items: center;
+align-items: center;
+border-radius: 16px;
+}
+
+.user{
+    text-align: center;
+    font-size: x-large;
+    background-color: aliceblue;
+    padding: 1rem;
+    margin: 0;
+    border-radius: 1.5rem;
+    color: black;
+}
+
+.tax{
+    width: 100vh;
+    height: 100%;
+    background-color: black;
+    color: aliceblue;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    
+}
+
+p{
+    color: red;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2rem;
+}
+
+h2{
+    color: darkcyan;
+   margin: 3rem;
+}
+
+.Submit{
+    margin-left: 3rem;
+    transition: linear 0.1s ;
+}
+
+.naam{
+    width: 100vh;
+    height: 100%;
+    background-color: rgb(34, 52, 52);
+    color: aliceblue;
+    margin: 1rem;
+    margin-left: 35px;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.seen:hover{
+    scale: 0.9;
+    background-color: rgb(225, 85, 85);
+    color: white;
+    box-shadow: 5px 5px 10px rgb(33, 50, 60);
+}

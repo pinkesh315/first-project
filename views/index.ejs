@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All posts</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>quora posts</h1>
+    
+    <% posts.forEach(post => { %>
+
+<div class="post">
+    <h3 class="user">@<%= post.username %></h3>
+    <h4 class="content"> <%= post.content %> </h4>
+
+    <% if(post.image) %>
+    <div class="content">
+        
+    </div>
+    <br> <br>
+
+    <div class="combo">
+    <a href="http://localhost:8080/posts/<%= post.id %>" class="seen">See in details</a>
+    <a href="http://localhost:8080/posts/<%= post.id %>/edit" class="seen">Edit</a>
+    <br>
+
+
+    <form method="post" action="/posts/<%= post.id %>?_method=DELETE">
+        <button class="Delete">Delete Post</button>
+    </form>
+</div>
+
+</div>
+   <% }) %> 
+
+   <br> <br>
+   <a href="http://localhost:8080/posts/new" class="Creat">Creat New post</a>
+</body>
+</html>
+
+
